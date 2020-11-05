@@ -1,35 +1,25 @@
 {
-  "name": "UserByte",
-  "description": "PyroGram Created By Team Devcode",
-  "logo": "https://telegra.ph/file/d08b95c506c006c0951fb.png",
+  "name": "Files Bot",
+  "description": "this app does one little thing, and does it well.",
   "keywords": [
-    "telegram-userbot",
-    "pyrogram",
-    "userbot",
-    "pyrogram-userbot",
-    "devcode"
+        "productivity",
+        "share",
+        "files"
   ],
   "repository": "https://github.com/DevcodeOfficial/UserByte",
   "env": {
-    "API_ID": {
-      "description": "Get this value from https://my.telegram.org",
-      "value": ""
-    },
-    "API_HASH": {
-      "description": "Get this value from https://my.telegram.org",
-      "value": ""
-    },
-    "ALIVE_NAME": {
-      "description": "Enter Your Username",
-      "value": ""
-    },
-    "STRING_SESSION": {
-      "description": "Generate this value by running python3 generatesession.py locally",
-      "value": ""
-    },
-    "CHANNEL_ID": {
-      "description": "Create a new channel and add @googleimgbot as admin and type /id , bot will give you channel_id",
-      "value": ""
+        "TG_BOT_TOKEN": {
+            "description": "your Telegram Bot Token, from @BotFather"
+        },
+        "TG_BOT_USERNAME": {
+            "description": "your Telegram Bot UserName, from @BotFather( without @)"
+        },
+        "TG_DUMP_CHANNEL_ID": {
+            "description": "Telegram Channel ID. Example: -10012374356"
+        },
+        "TG_AUTH_USERS": {
+            "description": "Telegram Users, who can get links using the RoBot",
+            "value": "ALL"
     }
   },
   "buildpacks": [{
